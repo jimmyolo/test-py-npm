@@ -1,6 +1,6 @@
 {
   "name": "py-hello-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "scripts": {
     "hello1:py": "python scripts/hello1.py",
