@@ -2,16 +2,16 @@
   "name": "py-hello-test",
   "version": "0.0.2",
   "description": "",
-  "bin": {
-    "hello1": "./hello1.py",
-    "hello2": "./hello2.py"
-  },
   "scripts": {
-    "hello1": "python hello1.py",
+    "hello1:py": "python scripts/hello1.py",
+    "hello1": "node src/hello1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "devDependencies": {
     "release-it": "^14.8.0"
+  },
+  "dependencies": {
+    "python-shell": "^3.0.0"
   }
 }
